@@ -1,0 +1,174 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Verdana', sans-serif;
+   
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.title_milan {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 5px;
+
+}
+
+.title_holidays {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.logo {
+    float: left;
+    margin-right: 15px;
+}
+
+.head {
+    margin-top: 49px;
+    float: left;
+}
+
+.contacts {
+    margin-top: 55px;
+    float: right;
+}
+
+.e_mail {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 5px;
+
+}
+
+.phone_number {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.text_under_foto {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin:  0 auto;
+    text-decoration: none;
+}
+
+.gallery_foto {
+    margin-bottom: 58px;
+  
+    position: relative;
+}
+
+.foto {
+    margin-bottom: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0px 17px 24px 0px #000000;
+}
+
+.footer_text {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.head:hover .title_milan {
+    color: #f26522;
+}
+
+.head:hover .title_holidays {
+    color: #f26522;
+}
+
+.head:hover .logo {
+    content: url(../img/logotip.png);
+}
+
+.orange_box {
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    width: 308px;
+    height: 63px;
+    background-color: #f26522;
+    bottom: 43px;
+    left:2px
+}
+
+.from {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 21px;
+    padding-top: 16px;
+
+}
+
+.fifty {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 21px;
+}
+
+.box_text {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    margin-left: 125px;
+}
+
+.box_text:hover::after {
+    content: url(../img/Arrow.png);
+    padding-left: 15px;
+}
+.gallery_foto:hover .orange_box{
+    display: block;
+}
+.gallery_foto:hover .text_under_foto{
+    color: #f26522;
+}
+
